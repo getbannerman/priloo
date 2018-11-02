@@ -1,0 +1,187 @@
+AllCops:
+  Include:
+    - Gemfile
+    - '*.gemspec'
+    - '**/*.rb'
+  TargetRubyVersion: 2.3
+
+# Begin -- Keep the following
+CaseIndentation:
+    EnforcedStyle: end
+
+ParameterLists:
+    Max: 5
+    CountKeywordArgs: false
+
+Rails:
+    Enabled: False
+
+Style/AndOr:
+    EnforcedStyle: conditionals
+
+Style/BlockDelimiters:
+    Enabled: False
+
+Style/CollectionMethods:
+    Enabled: True
+
+Style/Documentation:
+    Enabled: False
+
+Style/Lambda:
+    Enabled: False
+
+Style/MultilineIfModifier:
+    Enabled: False
+
+Style/MultipleComparison:
+    Enabled: False
+
+Style/SignalException:
+    EnforcedStyle: only_raise
+
+Style/LambdaCall:
+    Enabled: False
+
+Layout/AlignParameters:
+    EnforcedStyle: with_fixed_indentation
+
+Layout/ExtraSpacing:
+    Enabled: True
+
+Layout/IndentationWidth:
+    Width: 4
+
+Layout/IndentHash:
+    EnforcedStyle: consistent
+
+Layout/MultilineOperationIndentation:
+    EnforcedStyle: indented
+
+Layout/IndentArray:
+    Enabled: False
+
+Layout/IndentHeredoc:
+    Enabled: False
+
+Layout/MultilineMethodCallIndentation:
+    Enabled: False
+
+Layout/EndAlignment:
+    Enabled: True
+
+Lint/AmbiguousBlockAssociation:
+    Enabled: True
+
+Lint/EmptyWhen:
+    Enabled: True
+
+Lint/InheritException:
+    Enabled: False
+
+Lint/NestedMethodDefinition:
+    Enabled: False
+
+Lint/SafeNavigationChain:
+    Enabled: True
+
+Lint/UnneededSplatExpansion:
+    Enabled: False
+
+Lint/UselessAccessModifier:
+    Enabled: False
+
+Metrics/LineLength:
+    Max: 130
+
+Metrics/PerceivedComplexity:
+    Max: 20
+
+Metrics/AbcSize:
+    Enabled: False
+    Max: 30
+
+Metrics/BlockLength:
+    Enabled: False
+    Max: 25
+
+Metrics/ClassLength:
+    Enabled: False
+    Max: 200
+
+Metrics/CyclomaticComplexity:
+    Enabled: False
+    Max: 10
+
+Metrics/MethodLength:
+    Enabled: False
+    Max: 20
+
+Metrics/ModuleLength:
+    Enabled: False
+
+Performance/Casecmp:
+    Enabled: True
+
+Rails/TimeZone:
+    Enabled: False
+
+Security/YAMLLoad:
+    Enabled: True
+
+Style/Alias:
+    Enabled: False
+
+Style/ClassVars:
+    Enabled: True
+
+Style/EmptyCaseCondition:
+    Enabled: False
+
+Style/EmptyMethod:
+    Enabled: True
+
+Style/MixinGrouping:
+    Enabled: True
+
+Style/MultilineBlockChain:
+    Enabled: False
+
+Style/FrozenStringLiteralComment:
+    Enabled: True
+
+Style/MutableConstant:
+    Enabled: True
+
+Style/NestedParenthesizedCalls:
+    Enabled: False
+
+Style/Next:
+    Enabled: True
+
+Style/NumericPredicate:
+    Enabled: False
+
+Style/ParallelAssignment:
+    Enabled: False
+
+Style/RedundantParentheses:
+    Enabled: True
+
+Style/RedundantSelf:
+    Enabled: True
+
+Style/SingleLineBlockParams:
+    Enabled: False
+
+Style/StringLiterals:
+    Enabled: True
+
+Naming/VariableNumber:
+    Enabled: True
+
+Naming/FileName:
+    Enabled: True
+
+Naming/UncommunicativeMethodParamName:
+    Enabled: False
